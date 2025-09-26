@@ -1,0 +1,47 @@
+# Trichy Metro Rail Fare Calculator
+
+A Python program that calculates the metro fare based on boarding and destination stations for single or double journeys.
+
+## Features
+
+- **Station List**: Supports 12 major stations in Trichy
+- **Fare Calculation**: Automatically computes fare based on distance
+- **Journey Options**: Single or double journey support
+- **User-Friendly**: Case-insensitive input handling
+- **Receipt Generation**: Prints formatted journey details
+
+## Supported Stations
+
+| Station Name | Code | Position |
+|-------------|------|----------|
+| Samayapuram | samayapuram | 1 |
+| 1st Tollgate | 1_tollgate | 2 |
+| Srirangam | srirangam | 3 |
+| Chinthamani | chinthamani | 4 |
+| Central Bus Stand | cbs | 5 |
+| WB Road | wb_road | 6 |
+| Gandhi Market | gandhi_market | 7 |
+| Thillai Nagar | thillai_nagar | 8 |
+| Tennur | tennur | 9 |
+| Anna Nagar | anna_nager | 10 |
+| Padugai | padugai | 11 |
+| Trichy Mofussil Bus Stand | tmbs | 12 |
+
+## Fare Structure
+
+### Single Journey
+- Base fare: ₹8 for distance < 2 stations
+- ₹16 for 2-3 stations
+- ₹24 for 4-5 stations  
+- ₹32 for 6-7 stations
+- ₹40 for 8+ stations
+
+### Double Journey
+- Exactly double the single journey fare
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/trichy-metro-fare-calculator.git
+cd trichy-metro-fare-calculator
